@@ -5,6 +5,8 @@ description: Create a PRD through user interview, codebase exploration, and modu
 
 This skill will be invoked when the user wants to create a PRD. You may skip steps if you don't consider them necessary.
 
+You might be given a Github Issue number as basis. If so instead of opening a new one edit that one and read it for context.
+
 1. Ask the user for a long, detailed description of the problem they want to solve and any potential ideas for solutions.
 
 2. Explore the repo to verify their assertions and understand the current state of the codebase.

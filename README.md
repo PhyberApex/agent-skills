@@ -6,7 +6,7 @@ My personal collection of skills.
 
 ### Global Install (all projects)
 ```bash
-npx skills add git@github.com:PhyberApex/agent-skills.git -g -a claude-code -y
+npx skills PhyberApex/agent-skills.git -g -a claude-code -y
 ```
 
 ### Project-Specific Install

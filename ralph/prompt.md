@@ -85,22 +85,22 @@ Then push: `git push origin auto/prd-<parent-prd-number>` (add `-u` flag if firs
 
 **If this is the FIRST issue from this PRD (branch was just created):**
 - Create a new PR using `gh pr create`:
-  - Title: `<parent-prd-title> (Issue #<issue-number>)`
-  - Body:
-    ```markdown
-    Addresses #<parent-prd-number>
-
-    ## Completed Issues
-    - Fixes #<issue-number>
-
-    ## Implementation
-    <what was done>
-
-    ## Testing
-    <test results>
-    ```
-  - Base: `main`
-  - Head: `auto/prd-<parent-prd-number>`
+    - Title: `<parent-prd-title> (Issue #<issue-number>)`
+    - Body:
+      ```markdown
+      Addresses #<parent-prd-number>
+  
+      ## Completed Issues
+      - Fixes #<issue-number>
+  
+      ## Implementation
+      <what was done>
+  
+      ## Testing
+      <test results>
+      ```
+    - Base: `main`
+    - Head: `auto/prd-<parent-prd-number>`
 
 **If this is a SUBSEQUENT issue from the same PRD (branch already existed):**
 - Find the existing PR number: `gh pr list --head auto/prd-<parent-prd-number>`
@@ -115,9 +115,9 @@ Then push: `git push origin auto/prd-<parent-prd-number>` (add `-u` flag if firs
 
 **If the task is not complete:**
 - Leave a comment on the GitHub issue with:
-  - What was done
-  - What remains
-  - Link to the PR: "Work in progress: PR #<pr-number>"
+    - What was done
+    - What remains
+    - Link to the PR: "Work in progress: PR #<pr-number>"
 
 ## FINAL RULES
 
